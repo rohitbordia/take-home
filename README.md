@@ -16,10 +16,11 @@ using https://www.base64decode.org/ and then convert the binary to string and st
 script as string. 
 
 
-## Execution
-1. make postgres createdb migrateup server
-2. ./run_take_home.sh
-3. make migratedown dropdb
+## Execution (Please make sure all Pre-requisite are installed)
+1. cd take-home : go mod tidy 
+2. make postgres createdb migrateup server
+3. ./run_take_home.sh
+4. make migratedown dropdb
 
 
 
